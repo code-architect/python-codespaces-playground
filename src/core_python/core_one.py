@@ -42,5 +42,7 @@
 # print("My name is {0} and the year is {1}.".format(name.strip(), year))
 
 
-num = input("Enter a Number")
-print(type(num))
+num1 = int(input("Enter a Number: "))
+num2 = int(input("Enter another Number: "))
+num = num1 + num2
+print("The sum of the two numbers is:", num)
