@@ -36,5 +36,37 @@
 
 # a = 10
 # b = 5
-# print(a | b)
+# c = 12
+# d = 23
+# print(a | b | c | d)
 
+
+# a = 12
+# b = 6
+# print(a & b)
+
+
+# a = 20
+# b = 50
+# c = a ^ b
+# print(c)
+# print(c^a, c^b)
+
+
+# leftshift operator
+# a = 10
+# ans = a << 1
+# print(ans)
+
+
+# leftshift operator
+# num / 2^n
+# a = 8
+# b = (a >> 4) << 4
+# print(b)
+# print(14>>2)
+
+
+# Bitwise One's Complement Operator
+a = -2345
+print(~a)
